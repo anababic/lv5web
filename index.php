@@ -57,7 +57,7 @@
                                     "loss": <?=$row["loss"]?>
                                 }
                             }'>
-                            <img src="<?php echo $row["image"]?>" width="150" height="150">
+                            <img id="imgl<?=$row["id"]?>" src="<?php echo $row["image"]?>" width="150" height="150">
                             </div>
                             <button>Edit</button>
                         </div>
@@ -107,7 +107,7 @@
                                     "loss": <?=$row["loss"]?>
                                 }
                             }'>
-                            <img src="<?php echo $row["image"]?>" width="150" height="150">   
+                            <img id="imgr<?=$row["id"]?>" src="<?php echo $row["image"]?>" width="150" height="150">   
                             </div>
                         </div>
                     <?php 
